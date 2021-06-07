@@ -1,0 +1,88 @@
+<!DOCTYPE html> <!-- Esta linea indica que estamos utilizando html5 -->
+<html>
+    <head> <!-- Aqui van los metadatos: datos que describen otros datos -->
+        <title>CV de Sebastián Córdova</title> <!-- Título de la página -->
+        <meta charset="utf-8"> <!-- Indicamos los caracteres que vamos a utilizar(los del teclado en español) -->
+        <meta name="description" content="Iván es un estudiante de Ingenieria Informática con conocimientos en Frontend, Programación y IA"> <!-- Metadato que describe el contenido de nuestra web -->
+    </head> 
+    <body style="font-family: Helvetica, Arial, sans-serif; text-align: center; margin: 0;"> <!-- Aqui va todo lo que es visible en la página / el margen es lo que nos separa los bloques de la pagina web-->
+        <!-- <p> nombre = "valor" </p> Atributo: proporcionan información adicional sobre los elementos HTML -->
+        <!-- <input autofocus> Atributo booleano -->
+        <!-- Tambien le ponemos color a las cajitas con la etiqueta style background-color, con solo color le pongo color a las letras -->
+        <header style = "background-color: #1b0275; color: white; padding: 16px;"> <!-- Esta etiqueta es para todos los encabezados de tu pag web, pueden haber varios de estos / El área de padding es el espacio entre el contenido del elemento y su borde ( border )-->
+            <h1 style = "display:inline-block; width:400px; font-weight: 700;">Resumé of Sebastián Córdova</h1> <!-- etiqueta párrafo -->
+            <p style = "display: inline-block; width: 400px; font-weight: 400">Frontend Developer</p> <!-- el atributo style permite especificar un estilo CSS, no deberiamos utilizarlo cuando usemos CSS. Por otro lado, en este caso estamos poniendo un bloque al costado del otro -->
+        </header>
+        <!-- Los elementos html normalmente se colocan como bloques -->
+        <div style="background-color: #552ce8; color: black; padding: 10px; font-weight: 400;"> <!-- Las etiquetas div son muy importantes en html. Son como clases que acumulan elementos de html para un mismo fin, donde se les puede aplicar cambios en grupo -->
+            Enthusiastic and passionate Informatic Engineer from Pucp. Making dreams come true since 20s
+        </div>
+        <section>
+            <div style="width: 960px; margin-right: auto; margin-left: auto;">
+                <div>
+                    <div style="width: 68%; float: left; vertical-align: top;">
+                        <h3 style="font-size: 36px; font-weight: 700;">Education</h3>
+                        <div> <!-- El div sirve para crear apartados en la página web: crea secciones o agrupa contenidos -->
+                            <!-- Listas con descripción -->
+                            <dl> <!-- definicion de la lista -> es una lista descriptiva -->
+                                <dt style="font-size: 22px;text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Informatic Engineer</dt> <!-- definición del término -->
+                                <dd style="margin: 0;">2018-Current. Pontificia Universidad Católica del Perú</dd> <!-- descripción del término -->
+                                <dt style="font-size: 22px;text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">English Level - B2</dt>
+                                <dd style="margin: 0;">2018-Current. Idiomas Católica</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div style="float: right; width: 32%; margin-top: 20px;">
+                        <img src="chucho.jpeg" width="300"> <!-- Ponemos la ruta relativa de la imagen -->
+                    </div>
+                </div>
+                <div style="margin-top: 70px;">
+                    <h3 style="font-size: 36px; font-weight: 700;">Professional Experience</h3>
+                    <div>
+                        <dl>
+                            <dt style="font-size: 22px;text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Informatic Engineer</dt>
+                            <dd style="margin: 0;">2021-Current. BBVA : Developer for Robotic Desktop Automatizations, Frontend Developer and IT Analyst</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="font-size: 36px; font-weight: 700;">Extra-curricular Experience</h3>
+                    <div> <!-- El div sirve para crear apartados en la página web: crea secciones o agrupa contenidos -->
+                        <!-- Listas con descripción -->
+                        <dl>
+                            <dt style="font-size: 22px;text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Microsoft Learn Student Ambassador - Beta</dt>
+                            <dd style="margin: 0;">2021-Current. Microsoft : Empower communities to get success with technology</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div style="margin-top: 70px;">
+                    <h3 style="font-size: 36px; font-weight: 700;">Other</h3>
+                    <div> <!-- El div sirve para crear apartados en la página web: crea secciones o agrupa contenidos -->
+                        <!-- Listas desordenadas -->
+                        <ul style="margin-top: 12px; padding: 0px;"> <!-- este tipo de listas viene con un padding automatico, hay que quitarle ese mismo -->
+                            <li style="margin-top: 16px;">Over than 10 self-taught courses done.</li>
+                            <li style="margin-top: 16px;">Two big events organized in Latinoamerica. A Hackaton and an AI Gaming.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="margin-top: 70px;">
+                    <h3 style="font-size: 36px; font-weight: 700;">Social Accounts</h3>
+                    <div> 
+                        <ul style="margin-top: 12px; padding: 0px;">
+                            <li style="margin-top: 16px;">
+                            <!-- Ponemos links para redireccionar -->
+                                <a href="https://github.com/Sebastian-Cordova" target="_blank">GitHub</a>
+                            </li>
+                            <li style="margin-top: 16px;">
+                                <a href="https://www.linkedin.com/in/iván-sebastián-córdova-rivero-0875301b5/" target="_blank">LinkedIn</a>
+                            </li>
+                            <li style="margin-top: 16px;">
+                                <a href="https://twitter.com/McSebitas" target="_blank">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
